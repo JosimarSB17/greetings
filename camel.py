@@ -8,6 +8,7 @@ def camelcase(sentence):
 # So this still works on empty strings, strings of length 1
     return upper_camel_cased[0:1].lower() + upper_camel_cased[1:]
 def instructions():
+    """ Display instructions to user """
     print('Enter a sentence to convert it to camelCase format.')
 
 def display_banner():
