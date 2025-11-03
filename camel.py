@@ -10,6 +10,7 @@ def camelcase(sentence):
 def instructions():
     """ Display instructions to user """
     print('Enter a sentence to convert it to camelCase format.')
+# validate that the code works just as expected     
 
 def display_banner():
     """ Display program name in banner """
